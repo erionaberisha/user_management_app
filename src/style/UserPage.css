@@ -1,0 +1,100 @@
+.userpage-container {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.userpage-search {
+  display: block;
+  width: 100%;
+  max-width: 370px; 
+  margin: 15px auto 30px auto;
+  padding: 12px 15px;
+  border-radius: 25px;
+  border: 2px solid #1f3a58; 
+  font-size: 14px;
+  outline: none;
+  background: white;
+  color: #333;
+  transition: border 0.2s ease;
+}
+
+.userpage-search:focus {
+  border-color:#1f3a58;
+}
+
+.userpage-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+
+}
+
+.userpage-table th {
+  background-color: #1f3a58;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.userpage-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.userpage-link {
+  text-decoration: none;
+  color: inherit;
+}
+.userpage-details {
+  max-width: 500px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: #333;
+}
+
+.userpage-details h2 {
+  margin-bottom: 15px;
+  color: #1f3a58;
+  font-size: 22px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+.userpage-details p {
+  margin: 8px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.userpage-backbtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  background: #1f3a58;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.userpage-backbtn:hover {
+  background: #0d2239;
+}
+.delete-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 6px;
+  background: #0d2239;
+  color: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #b52b27;
+}
